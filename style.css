@@ -63,7 +63,8 @@ h1 {
 
 .col-1-desc {
     color: var(--clr-neutral-dark);
-    width: 400px;
+    width: 450px;
+    font-size: 1.1rem;
     font-weight: var(--fw-500);
     line-height: 1.5;
 }
@@ -91,22 +92,23 @@ h1 {
 
     margin-right: 5rem;
     padding-right: 4rem;
-    padding-left: 4rem;
+    padding-left: 2rem;
 }
 
 .desc-2 {
     margin-right: 2.5rem;
-    padding-right: 3rem;
-    padding-left: 4rem;
+    padding-right: 2.3rem;
+    padding-left: 2rem;
 }
 
 .desc-3 {
     padding-right: 4rem;
-    padding-left: 5.55rem;
+    padding-left: 2rem;
 }
 
 i {
     color: hsl(43, 74%, 49%);
+    margin-right: 0.4rem;
 }
 
 span {
