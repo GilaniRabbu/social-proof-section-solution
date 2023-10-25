@@ -36,14 +36,16 @@ body {
     min-height: 100vh;
 }
 
+section {
+    padding: 3rem 2rem;
+}
+
 .row {
     width: 100%;
     max-width: 1200px;
-    margin: 0 auto;
     display: flex;
     justify-content: end;
     align-items: end;
-    padding: 2rem 2rem;
 }
 
 .col-1 {
@@ -53,8 +55,8 @@ body {
 h1 {
     color: var(--clr-primary-magenta);
     font-weight: var(--fw-700);
-    font-size: 2.5rem;
-    width: 300px;
+    font-size: 3rem;
+    width: 400px;
     margin-bottom: 1.5rem;
     line-height: 1;
 }
@@ -76,8 +78,8 @@ h1 {
 }
 
 .col-2-desc {
-    font-size: 0.9rem;
-    padding: 0.7rem;
+    font-size: 1rem;
+    padding: 1rem;
     font-weight: var(--fw-700);
     border-radius: 10px;
     color: var(--clr-primary-magenta);
@@ -116,13 +118,13 @@ span {
     display: grid;
     gap: 1.5rem;
     grid-template-columns: 1fr 1fr 1fr;
-    padding: 2rem;
 }
 
 .card {
     max-width: 350px;
     padding: 2rem;
     border-radius: 10px;
+    overflow: hidden;
     background-color: var(--clr-primary-magenta);
 }
 
