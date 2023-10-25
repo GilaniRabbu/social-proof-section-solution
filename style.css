@@ -58,12 +58,13 @@ h1 {
     font-size: 3.15rem;
     width: 400px;
     margin-bottom: 1.5rem;
-    line-height: 1;
+    line-height: 0.9;
 }
 
 .col-1-desc {
     color: var(--clr-neutral-dark);
     width: 400px;
+    font-weight: var(--fw-500);
     line-height: 1.5;
 }
 
@@ -90,18 +91,18 @@ h1 {
 
     margin-right: 5rem;
     padding-right: 4rem;
-    padding-left: 2rem;
+    padding-left: 4rem;
 }
 
 .desc-2 {
     margin-right: 2.5rem;
     padding-right: 3rem;
-    padding-left: 2rem;
+    padding-left: 4rem;
 }
 
 .desc-3 {
     padding-right: 4rem;
-    padding-left: 2rem;
+    padding-left: 5.55rem;
 }
 
 i {
@@ -152,6 +153,7 @@ img {
 
 h2 {
     color: var(--clr-neutral-white);
+    font-weight: var(--fw-700);
 }
 
 a {
@@ -165,5 +167,6 @@ a:hover {
 
 .card-desc {
     line-height: 1.5;
+    font-weight: var(--fw-500);
     color: var(--clr-neutral-white);
 }
