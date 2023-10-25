@@ -229,6 +229,11 @@ a:hover {
 }
 
 @media (max-width: 768px) {
+    body {
+        background-image: url(img/bg-pattern-bottom-mobile.svg), url(img/bg-pattern-top-mobile.svg);
+        background-size: 800px, 500px;
+    }
+
     section {
         padding: 2rem;
     }
