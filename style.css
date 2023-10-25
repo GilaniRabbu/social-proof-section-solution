@@ -57,7 +57,7 @@ h1 {
     font-weight: var(--fw-700);
     font-size: 3.15rem;
     width: 400px;
-    margin-bottom: 1.5rem;
+    margin-bottom: 1.8rem;
     line-height: 0.9;
 }
 
@@ -89,7 +89,6 @@ h1 {
 }
 
 .desc-1 {
-
     margin-right: 5rem;
     padding-right: 4rem;
     padding-left: 2rem;
@@ -107,7 +106,7 @@ h1 {
 }
 
 i {
-    color: hsl(43, 74%, 49%);
+    color: hsl(29, 81%, 60%);
     margin-right: 0.4rem;
 }
 
@@ -156,6 +155,7 @@ img {
 h2 {
     color: var(--clr-neutral-white);
     font-weight: var(--fw-700);
+    margin-bottom: 0.25rem;
 }
 
 a {
@@ -171,4 +171,131 @@ a:hover {
     line-height: 1.5;
     font-weight: var(--fw-500);
     color: var(--clr-neutral-white);
+}
+
+@media (max-width: 1050px) {
+    .col-1 {
+        flex-basis: 50%;
+    }
+
+    .col-2 {
+        flex-basis: 50%;
+    }
+
+    .desc-1 {
+        margin-right: 0;
+        padding-left: 1rem;
+        padding-right: 1.5rem;
+    }
+
+    .desc-2 {
+        margin-right: 0;
+        padding-left: 1rem;
+        padding-right: 1.5rem;
+    }
+
+    .desc-3 {
+        padding-left: 1rem;
+        padding-right: 1.5rem;
+    }
+
+    span {
+        margin-left: 0.5rem;
+    }
+}
+
+@media (max-width: 920px) {
+    .desc-1 {
+        padding-right: 1rem;
+    }
+
+    .desc-2 {
+        padding-right: 1rem;
+    }
+
+    .desc-3 {
+        padding-right: 1rem;
+    }
+
+    i {
+        margin-right: 0.5rem;
+        margin-bottom: 1rem;
+    }
+
+    span {
+        display: block;
+        margin-left: 0;
+    }
+}
+
+@media (max-width: 768px) {
+    section {
+        padding: 2rem;
+    }
+
+    .row {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    h1 {
+        width: 100%;
+    }
+
+    .col-1-desc {
+        width: 100%;
+        font-size: 1rem;
+        margin-bottom: 2rem;
+    }
+
+    .col-2 {
+        justify-content: center;
+        align-items: center;
+        padding-bottom: 0;
+    }
+
+    .col-2-desc {
+        width: 100%;
+        padding: 1.5rem;
+    }
+
+    .desc-1 {
+        padding-left: 3rem;
+        padding-right: 3rem;
+    }
+
+    .desc-2 {
+        padding-left: 3rem;
+        padding-right: 3rem;
+    }
+
+    .desc-3 {
+        padding-left: 3rem;
+        padding-right: 3rem;
+    }
+
+    i {
+        margin-right: 0.15rem;
+        margin-left: 0.15rem;
+        margin-bottom: 1rem;
+    }
+
+    .cards {
+        gap: 1rem;
+        grid-template-columns: 1fr;
+    }
+
+    .card {
+        margin: 0 auto;
+    }
+
+    .card-1 {
+        transform: translateY(0px);
+    }
+
+    .card-3 {
+        transform: translateY(0px);
+    }
 }
